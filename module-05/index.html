@@ -42,17 +42,17 @@
       <section class="slider">
         <img src="./img/Attachment-1.jpeg" alt="slider" class="slider-img" />
         <div class="slider-overlay"></div>
-        <div class="slider-container">
-          <div class="slider-button-prvs">
+        <div class="slider-content container">
+          <button class="slider-prvs button">
             <i class="fas fa-angle-left"></i>
-          </div>
-          <a href="" class="slider-content">
+          </button>
+          <a href="" class="slider-text">
             <h3 class="text-main">affordable paris tours</h3>
             <h4 class="text-descr">city tours / tour tickets / tour guides</h4>
           </a>
-          <div class="slider-button-nxt">
+          <button class="slider-nxt button">
             <i class="fas fa-angle-right"></i>
-          </div>
+          </button>
         </div>
       </section>
       <main class="gallery">
@@ -60,19 +60,32 @@
           <h2 class="section-title">new collection</h2>
           <ul class="products-list clearfix">
             <li class="products-item">
+                <div class="products-card">
               <img
                 src="./img/category-2.png"
                 alt=""
-                class="collection-image"
+                class="card"
                 width="255"
                 height="322"
               />
-              <div class="products-hover">
+              <div class="products-overlay">
                 <div class="products-box">
-                  <button></button> <button></button> <button></button>
-                  <button></button>
+                        <ul class="social-icons-list clearfix">
+                                <li class="icon-item">
+                                    <button class="icon-button icon-like"></button></li>
+                                <li class="icon-item">
+                                    <button class="icon-button icon-random"></button></li>
+                                <li class="icon-item">
+                                    <button class="icon-button icon-clock"></button></li>
+                                <li class="icon-item__add">
+                                    <button class="icon-button__add clearfix">
+                                        <span class="icon-cart"></span>
+                                    <span class="icon-text">add to cart</span>
+                                </button></li>
+                                </ul>
                 </div>
               </div>
+                </div>
               <div class="products-item-info clearfix">
                 <a href="" class="products-link">
                   <h3 class="products-item-name">blue tshirt</h3>
@@ -81,6 +94,7 @@
               </div>
             </li>
             <li class="products-item">
+                    <div class="products-card">
               <img
                 src="./img/category-1.png"
                 alt=""
@@ -88,12 +102,17 @@
                 width="255"
                 height="322"
               />
-              <div class="products-hover">
+              <div class="products-overlay">
                 <div class="products-box">
-                  <button></button> <button></button> <button></button>
-                  <button></button>
+                        <ul class="social-icons">
+                                <li class="icon-button"><a href="#"></a></li>
+                                <li class="icon-button"><a href="#"></a></li>
+                                <li class="icon-button"><a href="#"></a></li>
+                                <li class="icon-button"><a href="#"></a></li>
+                            </ul>
                 </div>
               </div>
+                    </div>
               <div class="products-item-info">
                 <a href="" class="products-link">
                   <h3 class="products-item-name">woman shirt</h3>
@@ -102,6 +121,7 @@
               </div>
             </li>
             <li class="products-item">
+                    <div class="products-card">
               <img
                 src="./img/category-4.png"
                 alt=""
@@ -109,12 +129,17 @@
                 width="255"
                 height="322"
               />
-              <div class="products-hover">
+              <div class="products-overlay">
                 <div class="products-box">
-                  <button></button> <button></button> <button></button>
-                  <button></button>
+                        <ul class="social-icons">
+                                <li class="icon-button"><a href="#"></a></li>
+                                <li class="icon-button"><a href="#"></a></li>
+                                <li class="icon-button"><a href="#"></a></li>
+                                <li class="icon-button"><a href="#"></a></li>
+                            </ul>
                 </div>
               </div>
+                    </div>
               <div class="products-item-info">
                 <a href="" class="products-link">
                   <h3 class="products-item-name">yellow tshirt</h3>
@@ -123,6 +148,7 @@
               </div>
             </li>
             <li class="products-item">
+                    <div class="products-card">
               <img
                 src="./img/category-3.png"
                 alt=""
@@ -130,12 +156,17 @@
                 width="255"
                 height="322"
               />
-              <div class="products-hover">
+              <div class="products-overlay">
                 <div class="products-box">
-                  <button></button> <button></button> <button></button>
-                  <button></button>
+                  <ul class="social-icons">
+                      <li class="icon-button"><a href="#"></a></li>
+                      <li class="icon-button"><a href="#"></a></li>
+                      <li class="icon-button"><a href="#"></a></li>
+                      <li class="icon-button"><a href="#"></a></li>
+                  </ul>
                 </div>
               </div>
+                    </div>
               <div class="products-item-info">
                 <a href="" class="products-link">
                   <h3 class="products-item-name">cool lingerie</h3>
@@ -146,6 +177,12 @@
           </ul>
         </div>
       </main>
+      <footer class="site-footer">
+          <p>
+              All Rights Reserved © Dokan | Designed
+          <a href="#" class="designed">ThemenGraph</a>
+          </p>
+      </footer>
     </div>
   </body>
 </html>
