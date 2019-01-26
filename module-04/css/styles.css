@@ -96,7 +96,7 @@
 
 .products-footer {
   width: 255px;
-  background-color: black;
+  background-color: #323232;
   color: white;
 }
 
@@ -110,7 +110,7 @@
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 0 0 0 10px;
+  padding: 5px 0 0 10px;
   float: left;
 }
 
@@ -125,6 +125,7 @@
   font-weight: bold;
   text-align: center;
   float: right;
+  padding-top: 5px;
 }
 
 .products-list-item:nth-child(4n) {
