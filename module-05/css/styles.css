@@ -294,15 +294,15 @@
 }
 
 .icon-like {
-    background-image: url(/img/icons/heart.png)
+    background-image: url(/img/icons/heart.png);
 }
 
 .icon-random {
-    background-image: url(/img/icons/size.png)
+    background-image: url(/img/icons/size.png);
 }
 
 .icon-clock {
-    background-image: url(/img/icons/time.png)
+    background-image: url(/img/icons/time.png);
 }
 
 .icon-cart {
