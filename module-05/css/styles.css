@@ -90,7 +90,7 @@
 
 .slider-overlay {
     background-color: #000002;
-    opacity: 0.3;
+    opacity: 0.5;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -208,7 +208,7 @@
     background-color: rgba(0, 0, 0, 0.549);
     border: 10px solid rgba(255, 255, 255, 0.549);
     top: 0px;
-    /*opacity: 0;*/
+    opacity: 0;
   }
 
   .products-card:hover .products-overlay {
@@ -254,7 +254,7 @@
   }
 
   .icon-button {
-    border: 1px solid white;
+    border: 1px solid #ffff;
     padding: 0;
     display: block;
     text-decoration: none;
@@ -264,11 +264,21 @@
     width: 166px;
     height: 50px;
     padding: 0;
-    border: 1px solid white;
-    background-color: transparent;
+    border: 1px solid #ffff;
+    background-color: #323232;
     cursor: pointer;
     display: block;
     text-decoration: none;
+  }
+
+  .icon-button:hover {
+    background-color: #1abc9c;
+    border: none;
+  }
+
+  .icon-button__add:hover {
+    background-color: #1abc9c;
+    border: none;
   }
 
 .icon-like,
