@@ -36,7 +36,7 @@
   clear: both;
 }
 
-.nav-menu {
+.header-nav {
   float: right;
   padding: 10px;
 }
@@ -64,6 +64,10 @@
 
 .menu-item:last-child {
   margin: 0;
+}
+
+.gallery {
+  margin-bottom: 100px;
 }
 
 .section-title {
@@ -95,7 +99,6 @@
 }
 
 .products-footer {
-  width: 255px;
   background-color: #323232;
   color: white;
 }
@@ -115,7 +118,7 @@
 }
 
 .price {
-  width: 100px;
+  width: 55px;
   height: 40px;
   font-size: 18px;
   line-height: 32px;
@@ -138,10 +141,6 @@
 
 .products-list-item:hover .products-footer {
   background-color: #1abc9c;
-}
-
-.products-list-item:hover .price {
-  background-color: #7fd9c7;
 }
 
 .latest-news-item {
