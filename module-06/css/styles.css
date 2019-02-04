@@ -41,7 +41,7 @@ img {
 
 .menu-item {
     list-style: none;
-    margin-right: 30px;
+    margin-right: 55px;
 }
 
 .menu-item:nth-child(5n) {
@@ -50,6 +50,7 @@ img {
 
 .nav-link {
     line-height: 11px;
+    display: block;
     list-style: none;
     text-transform: uppercase;
     text-decoration: none;
@@ -60,24 +61,26 @@ img {
     transition: color 0.3s linear;
   }
 
-  .nav-link:hover:after {
-    content: "";
-    border-bottom: 3px solid #f38181;
-    display: block;
-    width: 50px;
-    margin-top: 10px;
-  }
-
   .nav-link:hover,
   .nav-link:focus {
     color: #f38181;
+  }
+
+  .nav-link::after {
+    content: "";
+    border-bottom: 3px solid #f38181;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 200ms linear;
   }
 
   .section-minititle {
     text-align: center;
     font-size: 24px;
     color: #333333;
-    font-family: "Kaushan Script", sans-serif;
+    font-family: "Kaushan Script", cursive;
     font-weight: 400;
     margin-bottom: 30px;
   }
@@ -155,13 +158,64 @@ img {
 
 .section-subtitle {
     text-align: center;
-    margin: 0 100px 0 100px;
+    padding: 0 120px;
     font-size: 15px;
     line-height: 24px;
     color: #999999;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    margin-bottom: 90px;
 }
 
 
+.site-footer {
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e5e5e5;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.reference {
+    text-decoration: none;
+    color: #f38181;
+}
+
+.input-email {
+    box-sizing: border-box;
+    padding: 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e7e7e7;
+    background-color: #ffffff;
+    width: 234px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: italic;
+    padding-left: 10px;
+}
+
+.button-subscribe {
+    background-color: rgb(149, 225, 211);
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+}
 
