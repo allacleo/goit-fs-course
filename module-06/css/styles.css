@@ -6,7 +6,6 @@
 
 img {
     display: block;
-    width: 100%;
     height: auto;
 }
 
@@ -58,7 +57,7 @@ img {
     color: #95e1d3;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    transition: color 0.3s linear;
+    transition: color 200ms linear;
   }
 
   .nav-link:hover,
@@ -66,14 +65,12 @@ img {
     color: #f38181;
   }
 
-  .nav-link::after {
+  .nav-link:hover::after {
     content: "";
     border-bottom: 3px solid #f38181;
     display: block;
     width: 100%;
     margin-top: 10px;
-    opacity: 0;
-    transition: opacity 200ms linear;
   }
 
   .section-minititle {
@@ -114,7 +111,7 @@ img {
   .branches-item {
     position: relative;
     flex-basis: 300px;
-    padding: 30px;
+    padding: 0 30px 0 60px;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
   }
 
@@ -128,7 +125,7 @@ img {
 
   .branches-item::before {
       position: absolute;
-      left: 0;
+      left: 15px;
       top: 0;
       display: inline-block;
       content: "";
@@ -166,6 +163,105 @@ img {
     font-weight: 400;
     margin-bottom: 90px;
 }
+
+.team-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-members {
+    list-style: none;
+}
+
+.member-card {
+    position: relative;
+}
+
+.member-overlay {
+    position: absolute;
+    background-color: aqua;
+    width: 100%;
+    height: 470px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 200ms linear;
+}
+
+.member-overlay:hover {
+    opacity: 0.9;
+}
+
+.member-overlay-second {
+    position: absolute;
+    width: 100%;
+    height: 470px;
+    background-image: linear-gradient(0deg, #f0e290 0%, #e98a89 100%);
+    transform: translate(-10px, -10px)
+}
+
+.social-icons-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fce38a;
+}
+
+.social-icons-list {
+    display: flex;
+}
+
+.icons-item {
+    list-style: none;
+    width: 56px;
+    height: 56px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.icon-link {
+    background-image: url(../img/css_sprites.png);
+    background-repeat: no-repeat;
+    height: 56px;
+    width: 56px;
+    display: inline-block;
+    background-color: #fce38a;
+    transition: background-color 200ms linear;
+}
+
+.icon-link:hover {
+    background-color: #95e1d3;
+}
+
+.facebook {
+    background-position: -146px -40px;
+}
+
+.twiter {
+    background-position: -40px -97px;
+}
+
+.pinterest {
+    background-position: -146px 5px;
+}
+
+.instagram {
+    background-position: 5px -98px;
+}
+
+.figcaption {
+    font-size: 15px;
+    line-height: 24px;
+   color: #999999;
+font-family: "Roboto";
+font-weight: 300;
+font-style: italic;
+text-align: center;
+}
+
+
+
+
 
 
 .site-footer {
