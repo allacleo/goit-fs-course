@@ -41,11 +41,11 @@
   padding: 10px;
 }
 
- .menu-item {
+.menu-item {
   float: left;
   list-style: none;
   margin: 0 40px 0 0;
- }
+}
 
 .nav-link {
   font-size: 14px;
@@ -58,7 +58,8 @@
   text-decoration: none;
 }
 
-.nav-link:hover, .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #1abc9c;
 }
 
