@@ -6,20 +6,20 @@
 
 img {
     display: block;
+    max-width: 100%;
     height: auto;
 }
 
 .wrapper {
     width: 1200px;
-    background-color: gray;
     margin: 0 auto;
 }
 
 .header {
-    margin-bottom: 110px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    padding: 28px 0 110px 0;
+    align-items: baseline;
 }
 
 .logo {
@@ -40,7 +40,6 @@ img {
 
 .menu-item {
     list-style: none;
-    margin-right: 55px;
 }
 
 .menu-item:nth-child(5n) {
@@ -60,17 +59,22 @@ img {
     transition: color 200ms linear;
   }
 
-  .nav-link:hover,
-  .nav-link:focus {
-    color: #f38181;
-  }
-
-  .nav-link:hover::after {
+  .nav-link::after {
     content: "";
     border-bottom: 3px solid #f38181;
     display: block;
     width: 100%;
     margin-top: 10px;
+    visibility: hidden;
+  }
+
+  .menu-item:hover .nav-link::after {
+    visibility: visible;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #f38181;
   }
 
   .section-minititle {
@@ -106,13 +110,13 @@ img {
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
+    margin-bottom: 100px;
   }
 
   .branches-item {
     position: relative;
-    flex-basis: 300px;
-    padding: 0 30px 0 60px;
-    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
+    flex-basis: 380px;
+    padding: 15px 30px 0 60px;
   }
 
   .branches-item:not(:nth-child(3n)) {
@@ -125,13 +129,38 @@ img {
 
   .branches-item::before {
       position: absolute;
-      left: 15px;
+      left: 0;
       top: 0;
       display: inline-block;
       content: "";
-      width: 30px;
-      height: 30px;
-      background-color: green;
+      width: 50px;
+      height: 50px;
+      background-image: url(../img/css_sprites.png);
+      background-repeat: no-repeat;
+  }
+
+  .branches-item:nth-child(1):before {
+    background-position: -100px 0;
+  }
+
+  .branches-item:nth-child(2):before {
+    background-position: -50px 0;
+  }
+
+  .branches-item:nth-child(3):before {
+    background-position: -100px -50px;
+  }
+
+  .branches-item:nth-child(4):before {
+    background-position: 0 -50px;
+  }
+
+  .branches-item:nth-child(5):before {
+    background-position: -50px -50px;
+  }
+
+  .branches-item:nth-child(6):before {
+    background-position: 0 0;
   }
 
   .branches-name {
@@ -167,6 +196,7 @@ img {
 .team-menu {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 .team-members {
@@ -249,14 +279,22 @@ img {
     background-position: 5px -98px;
 }
 
-.figcaption {
+.figure-title__first {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #333333;
+    margin: 12px 0;
+  }
+
+.figure-title__second {
     font-size: 15px;
-    line-height: 24px;
-   color: #999999;
-font-family: "Roboto";
-font-weight: 300;
-font-style: italic;
-text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #999999;
+    text-align: center;
+    font-style: italic;
 }
 
 
