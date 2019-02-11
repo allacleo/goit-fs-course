@@ -79,7 +79,6 @@ img {
   color: #f38181;
 }
 
-
 .section-title {
   font-size: 30px;
   color: #333333;
@@ -300,7 +299,6 @@ img {
   left: 0px;
 }
 
-
 .team-image {
   position: relative;
   transition: all 200ms linear;
@@ -323,7 +321,7 @@ img {
 }
 
 .team-members:hover .team-image {
-  transform:  translate(-10px, -10px)
+  transform: translate(-10px, -10px);
 }
 
 .facebook {
@@ -352,8 +350,8 @@ img {
   margin: 12px 0;
 }
 
-.icon-link:hover{
-  background-color:#95e1d3
+.icon-link:hover {
+  background-color: #95e1d3;
 }
 
 .figure-title__second {
