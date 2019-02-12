@@ -211,6 +211,10 @@ img {
   left: -10px;
 }
 
+.team-overlay {
+  position: relative;
+}
+
 .member-overlay {
   position: absolute;
   height: 100%;
@@ -333,7 +337,7 @@ img {
 .subscribe {
   background-color: rgb(149, 225, 211);
   width: 150px;
-  height: 41px;
+  height: 40px;
   font-size: 14px;
   color: #ffffff;
   font-family: "Montserrat";
@@ -342,4 +346,8 @@ img {
   border: none;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.input-email::placeholder {
+  color: #c4c3c3;
 }
