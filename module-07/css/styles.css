@@ -1,0 +1,242 @@
+@import "./vars.css";
+@import "./fonts.css";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+    padding-top: 55px;
+}
+
+.top-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.logo {
+  font-size: 26px;
+  letter-spacing: 1px;
+  line-height: 41px;
+  color: var(--hover-items-color);
+  font-family: var(--logo-font);
+}
+
+.site-logo {
+  text-decoration: none;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu-item {
+  list-style: none;
+  margin-right: 55px;
+}
+
+.nav-menu-item:nth-child(5n) {
+  margin-right: 0;
+}
+
+.nav-menu-link {
+  font-size: 14px;
+  line-height: 41px;
+  color: var(--semi-font-color);
+  font-family: var( --main-font);
+  font-weight: 400;
+  text-align: center;
+  transition: color 200ms linear;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-menu-item:hover .nav-menu-link {
+  color: var(--hover-items-color);
+}
+
+.services,
+.contacts {
+  padding: 125px 0 125px 0;
+}
+
+.section-title {
+  font-size: 40px;
+  line-height: 75px;
+  color: var(--semi-font-color);
+  font-family: var( --main-font-bold);
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  color: var(--text-font-color);
+  font-family: var(--text-font);
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.section-menu {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.section-item {
+  position: relative;
+  width: 290px;
+}
+
+.section-item-icon {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 3px solid var(--hover-items-color);
+  margin: 0 auto;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.section-item-icon::before {
+  content: "";
+  display: block;
+  background-image: url(../img/css_sprites.png);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.basket::before {
+  background-position: 112px -10px;
+  width: 42px;
+  height: 42px;
+}
+
+.tick::before {
+  background-position: 221px -8px;
+  width: 42px;
+  height: 42px;
+}
+
+.lock::before {
+  background-position: -4px -10px;
+  width: 42px;
+  height: 42px;
+}
+
+.icon-title {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 75px;
+  color: var(--headlines-font-color);
+  font-family: var(--main-font-bold);
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.icon-text {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: var(--text-font-color);
+  font-family: var(--text-font);
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacts {
+  background-color: #222222;
+  background-image: url(../img/Map-Image.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.form-items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.all-forms {
+  display: block;
+  outline: none;
+  width: 455px;
+  box-sizing: border-box;
+  border: 1px solid var(--forms-font-color);
+  border-radius: 3px;
+  padding: 20px 0 20px 20px;
+  font-family: var(--main-font-bold);
+  font-size: 14px;
+  color: var(--semi-font-color);
+  background-color: #fff;
+}
+
+.all-forms::placeholder {
+  text-transform: uppercase;
+  color: var(--forms-font-color);
+  font-size: 14px;
+}
+
+.leftside:not(:last-child) {
+  margin-bottom: 27px;
+}
+
+.rightside {
+  min-height: 230px;
+  resize: none;
+}
+
+.leftside:not(:last-child):focus:valid {
+  border: 2px solid green;
+}
+
+.leftside:not(:last-child):focus:invalid {
+  border: 2px solid red;
+}
+
+textarea:focus:valid {
+  border: 2px solid green;
+}
+
+textarea:focus:invalid {
+  border: 2px solid red;
+}
+
+.button {
+  display: block;
+  width: 240px;
+  height: 65px;
+  border-radius: 3px;
+  border: none;
+  background-color: var(--hover-items-color);
+  font-size: 18px;
+  color: #ffffff;
+  font-family: var(--main-font-bold);
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0 auto;
+}
