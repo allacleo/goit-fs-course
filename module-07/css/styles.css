@@ -170,7 +170,18 @@ img {
   background-color: #222222;
   background-image: url(../img/Map-Image.png);
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: right bottom;
+}
+
+.section-title-second {
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 75px;
+    font-family: var( --main-font-bold);
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .form-items {
