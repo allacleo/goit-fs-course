@@ -30,7 +30,7 @@ img {
 }
 
 .logo {
-  font-size: 26px;
+  font-size: 40px;
   letter-spacing: 1px;
   line-height: 41px;
   color: var(--hover-items-color);
@@ -90,7 +90,7 @@ img {
 .section-subtitle {
   font-size: 16px;
   color: var(--text-font-color);
-  font-family: var(--text-font);
+  font-family: var(--italic-font);
   font-weight: 400;
   font-style: italic;
   text-align: center;
@@ -101,6 +101,7 @@ img {
   display: flex;
   justify-content: space-between;
   text-align: center;
+  list-style: none;
 }
 
 .section-item {
@@ -170,6 +171,7 @@ img {
   background-color: #222222;
   background-image: url(../img/Map-Image.png);
   background-repeat: no-repeat;
+  width: 100%;
   background-position: right bottom;
 }
 
@@ -208,6 +210,7 @@ img {
   text-transform: uppercase;
   color: var(--forms-font-color);
   font-size: 14px;
+  font-family: var(--main-font-bold);
 }
 
 .leftside:not(:last-child) {
@@ -219,20 +222,20 @@ img {
   resize: none;
 }
 
-.leftside:not(:last-child):focus:valid {
-  border: 2px solid green;
+input:not(:last-child):focus:valid {
+   box-shadow: 0 0 5px 1px #03a711;
 }
 
-.leftside:not(:last-child):focus:invalid {
-  border: 2px solid red;
+input:not(:last-child):focus:invalid {
+  box-shadow: 0 0 5px 1px red;
 }
 
 textarea:focus:valid {
-  border: 2px solid green;
+  box-shadow: 0 0 5px 1px #03a711;
 }
 
 textarea:focus:invalid {
-  border: 2px solid red;
+  box-shadow: 0 0 5px 1px red;
 }
 
 .button {
