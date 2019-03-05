@@ -28,6 +28,12 @@ img {
   min-width: 320px;
 }
 
+.container {
+  width: 320px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+}
+
 .main-wrapper {
   background-image: url(../img/bg_img.png);
   background-repeat: no-repeat;
@@ -128,10 +134,7 @@ img {
 }
 
 
-.top-main-header {
-  margin-bottom: 65px;
-  padding: 20px 30px 130px 30px;
-}
+
 
 /*----partners*/
 

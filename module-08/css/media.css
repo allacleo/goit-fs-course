@@ -8,6 +8,10 @@
         margin-bottom: 70px;
     }
 
+    .page-header {
+      width: 100%;
+      padding: 45px 50px 0 50px;
+    }
     .container {
       width: 678px;
     }
@@ -68,7 +72,7 @@
     }
 
     .partners-list-item:not(:last-child) {
-      margin-right: 20px;
+    margin-right: 20px;
     }
 
 }
