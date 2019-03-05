@@ -26,6 +26,7 @@ img {
 
 .wrapper {
   min-width: 320px;
+  max-width: 100%;
 }
 
 .container {
@@ -40,6 +41,8 @@ img {
   background-position: center;
   background-size: cover;
   background-color: #000000;
+  padding-bottom: 160px;
+  margin-bottom: 60px;
 }
 
 .logo {
