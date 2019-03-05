@@ -32,6 +32,7 @@ img {
   background-image: url(../img/bg_img.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   background-color: #000000;
 }
 
@@ -47,6 +48,7 @@ img {
   font-family: var(--main-bold-font);
   text-transform: uppercase;
 }
+
 
 .main-header-subsection {
   display: flex;
@@ -124,6 +126,7 @@ img {
   border: 2px solid var(--button-color);
   background-color: var(--main-color);
 }
+
 
 .top-main-header {
   margin-bottom: 65px;

@@ -1,6 +1,7 @@
 @media screen and (min-width: 678px) {
+
     .wrapper {
-        min-width: 760px;
+        min-width: 670px;
     }
 
     .main-wrapper {
@@ -8,7 +9,7 @@
     }
 
     .container {
-        width: 670px;
+      width: 678px;
     }
 
     .main-header-subsection {
@@ -62,12 +63,12 @@
     }
 
     .partners-list {
-        display: flex;
-        flex-wrap: nowrap;
+      display: flex;
+      flex-wrap: nowrap;
     }
 
     .partners-list-item:not(:last-child) {
-    margin-right: 20px;
+      margin-right: 20px;
     }
 
 }
