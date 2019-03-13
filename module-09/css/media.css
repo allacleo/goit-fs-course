@@ -1,0 +1,42 @@
+@media screen and (min-width: 768px) {
+
+    .masthead-wrapper {
+        margin-bottom: 70px;
+    }
+
+
+    .masthead__header {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .hero_descr {
+        font-size: 24px;
+      }
+
+      .partners-list {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .partners-member {
+          max-width: 235px;
+          margin-bottom: 60px;
+      }
+
+      .partner-member:nth-child(odd) {
+          margin-right: 20px;
+      }
+
+      .link-button {
+          width: 225px;
+      }
+}
+
+@media screen and (min-width: 992px) {
+
+    .masthead__header {
+      margin-bottom: 0;
+    }
+
+}

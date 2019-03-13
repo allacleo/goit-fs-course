@@ -1,0 +1,14 @@
+:root {
+    --main-font: "Montserrat Regular";
+    --main-bold-font: "Montserrat Bold";
+    --semi-font: "Roboto";
+    --semi-light-font: "Roboto Light";
+    --main-color: #ffffff;
+    --button-color: #ff4e50;
+    --text-color: #666666;
+    --main-text-color: #333333;
+    --eclipse-bgcolor: #ffa507;
+    --eclipse-bg: #1cd7ad;
+    --eclipse-bg-blue: #4e73db;
+
+}
