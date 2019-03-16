@@ -15,7 +15,6 @@ img {
   height: auto;
 }
 
-
 .link {
   text-decoration: none;
 }
@@ -38,8 +37,8 @@ img {
 }
 
 
-.wrapper {
-  width: 1200px;
+.container {
+  max-width: 1120px;
   margin: 0 auto;
 }
 
@@ -98,12 +97,28 @@ img {
 }
 
 /*BANNER*/
-
 .masthead-wrapper {
-  background-image: url(../img/banner.svg);
+  background: linear-gradient(
+      rgba(243, 129, 129, 0.9) 0%,
+      rgba(252, 227, 138, 0.9) 100%
+    ),
+    url(../img/layer15-min.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-color: linear-gradient(0deg, #fbe389 0%, #f38a81 100%);
+  background-position: center;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .masthead-wrapper {
+    background: linear-gradient(
+        rgba(243, 129, 129, 0.9) 0%,
+        rgba(252, 227, 138, 0.9) 100%
+      ),
+      url(../img/layer15@2x-min.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 .masthead-hero__title {
@@ -129,6 +144,7 @@ img {
 .masthead-button {
   display: block;
   border: 3px solid #ffffff;
+  background-color: rgba(0,0,0,0);
   margin: 0 auto;
 }
 
@@ -258,7 +274,7 @@ img {
   position: relative;
 }
 
-.team__member:hover .member-overlay {
+.team__member:hover .socials {
   opacity: 0.9;
   top: -10px;
   left: -10px;
@@ -293,7 +309,7 @@ img {
   display: block;
 }
 
-.member-overlay__icon {
+.socials__link {
   background-image: url(../img/css_sprites.png);
   background-repeat: no-repeat;
   height: 55px;
@@ -307,23 +323,23 @@ img {
   transition: background-color 200ms linear;
 }
 
-.team-member:hover .team-overlay__image {
+.team__member:hover .team-overlay__image {
   transform: translate(-10px, -10px);
 }
 
-.member-overlay__icon--facebook {
+.socials__icon--facebook {
   background-position: -146px -40px;
 }
 
-.member-overlay__icon--twiter {
+.socials__icon--twiter {
   background-position: -40px -97px;
 }
 
-.member-overlay__icon--pinterest {
+.socials__icon--pinterest {
   background-position: -146px 5px;
 }
 
-.member-overlay__icon--instagram {
+.socials__icon--instagram {
   background-position: 5px -98px;
 }
 
@@ -337,8 +353,8 @@ img {
   margin: 12px 0;
 }
 
-.icon-link:hover {
-  background-color: #95e1d3;
+.socials__link:hover {
+  background-color: #f38181;
 }
 
 .figure-title__second {
@@ -353,7 +369,7 @@ img {
   min-height: 60px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   border-top: 1px solid #e5e5e5;
 }
 
