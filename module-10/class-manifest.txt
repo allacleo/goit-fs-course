@@ -1,0 +1,46 @@
+link
+
+
+page-header
+
+page-nav
+
+container
+
+site-logo
+
+site-navigation
+    site-navigation__item
+    site-navigation__link
+
+masthead-wrapper
+    banner__title--small
+    banner__subtitle--big
+
+section
+    section__title
+    section__list
+
+services
+    services__subtitle
+    services__list
+    services__item
+    services__icon (для всех стилей иконок)
+    services__icon--tools (отдельнвя иконка)
+
+services-card
+    services-card__name
+    services-card__desc
+
+team
+    team__header-text
+    team__list
+    team__item
+    team__item-name
+    team__item-occupation
+
+socials
+    socials__item
+    socials__link
+    socials__icon
+
