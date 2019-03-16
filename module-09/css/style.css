@@ -12,10 +12,13 @@ html {
   padding: 0px;
 }
 
-li,
-a {
+li {
   list-style: none;
-  text-decoration: none;
+}
+
+a:hover,
+.a:hover {
+   text-decoration: none;
 }
 
 img {
@@ -40,6 +43,11 @@ img {
 
 .logo {
   display: block;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: var(--main-color);
 }
 
 .logo-link {
@@ -95,7 +103,6 @@ img {
   box-sizing: border-box;
   color: var(--main-color);
   background-color: #ff4e50;
-  text-decoration: none;
   font-size: 14px;
   text-align: center;
   margin: 0 auto;
@@ -122,6 +129,7 @@ img {
   color: var(--button-color);
   border: 2px solid var(--button-color);
   background-color: var(--main-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 
