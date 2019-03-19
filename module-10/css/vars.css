@@ -1,0 +1,14 @@
+:root {
+    --main-font: "montserrat-bold", sans-serif;
+    --semi-font: "montserrat-regular", sans-serif;
+    --subtitle-font: "kaushan-regular", script;
+    --roboto-font: "roboto-regular", sans-serif;
+    --main-text-color: #999999;
+    --title-text-color: #333333;
+    --main-icons-color: #95e1d3;
+    --white-text: #ffffff;
+    --yellow-items: #fce38a;
+    --social-icons-color: ​#f38181;
+
+    font-size: 62.5%;
+    }
