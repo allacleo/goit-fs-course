@@ -1,0 +1,23 @@
+
+.page-footer {
+    min-height: 6rem;
+    padding: 3.8rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-top: 1px solid $border-color;
+  }
+
+  .page-footer__copyright {
+    font-size: 1.4rem;
+    color: $title-text-color;
+    font-family: $secondary-font-stack;
+  }
+
+  .page-footer__reference {
+    color: ​$icon-hover-color;
+  }
+
+  .page-footer__list {
+    display: flex;
+  }

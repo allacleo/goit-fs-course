@@ -1,0 +1,26 @@
+.section__title {
+    font-size: 3rem;
+    color: $title-text-color;
+    font-family: $main-font-stack;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .section__subtitle {
+    font-size: 2.4rem;
+    color: #1a0909;
+    font-family: $subtitle-font;
+    margin-bottom: 1.5rem;
+    text-transform: none;
+    display: block;
+  }
+
+  .section__title::after {
+    content: "";
+    border-bottom: 3px solid $icon-hover-color;
+    display: block;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    width: 6rem;
+  }

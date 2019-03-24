@@ -1,0 +1,29 @@
+.subscribe-form__input-email {
+    box-sizing: border-box;
+    border: 1px solid ​$border-color;
+    width: 24rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    color: $main-text-color;
+    font-family: $roboto-font;
+    font-style: italic;
+    padding-left: 1rem;
+    outline: none;
+  }
+
+  .subscribe-form__button {
+    box-sizing: border-box;
+    background-color: $main-icons-color;
+    width: 15rem;
+    height: 4rem;
+    font-size: $common-text-size;
+    color: $primary-white-color;
+    font-family: $main-font-stack;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .subscribe-from__input-email::placeholder {
+    color: #cccccc;
+  }
