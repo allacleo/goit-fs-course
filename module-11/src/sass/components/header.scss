@@ -1,0 +1,9 @@
+.header {
+    padding: 2.8rem 0 23rem 0;
+  }
+
+  .page-header {
+    @include flex-center($type: 'ver');
+    justify-content: space-between;
+    margin-bottom: 17rem;
+  }

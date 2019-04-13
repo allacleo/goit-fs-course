@@ -4,37 +4,24 @@
     justify-content: space-between;
   }
 
-  .services__item {
+  .services__item { 
     flex-basis: 38rem;
     flex-grow: 0;
     flex-shrink: 0;
     margin-bottom: 10rem;
     display: flex;
-  }
 
-  .services__item:not(:nth-child(3n)) {
-    margin-right: 3rem;
-  }
-
-  .services__item:nth-child(-n + 3) {
+  &:nth-last-child(-n + 3) {
     margin-bottom: 0;
   }
 
-  .services__item-box {
+  }
+
+  .services__item-desc {
     width: 30rem;
-    padding-bottom: 10rem;
   }
 
-  .services__icon {
-    fill: $main-icons-color;
-    display: block;
-    height: 3.2rem;
-    width: 3.2rem;
-    margin-right: 3rem;
-    flex-shrink: 0;
-  }
-
-  .services__item-name {
+  .services__item-title {
     font-family: $secondary-font-stack;
     color: $title-text-color;
     text-transform: uppercase;
@@ -42,9 +29,23 @@
     margin-bottom: 2rem;
   }
 
-  .services__item-desc {
-    line-height: 1.6rem;
+  .services__item-text {
+    line-height: 1.6;
     font-size: 1.5rem;
     font-family: $roboto-font;
     color: $main-text-color;
+  }
+
+  .services__item-icon {
+    height: 3.4rem;
+    width: 3.4rem;
+    display: block;
+    margin-right: 2.6rem;
+  }
+
+  .services__item-icon svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: $main-icons-color;
   }

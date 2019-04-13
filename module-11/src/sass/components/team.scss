@@ -1,78 +1,76 @@
-.team__header-text {
-    padding: 0 12rem;
-    margin-bottom: 9rem;
-    color: $main-text-color;
-    font-family: $roboto-font;
-    text-align: center;
-    line-height: 2.4rem;
-    font-size: 1.5rem;
+.team {
+    margin-bottom: 8.4rem;
   }
 
-  .team-list {
+  .title-section::after {
+    padding-bottom: 4.3rem;
+  }
+
+  .team__about {
+    padding: 0 12.4rem;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 9.2rem;
+    font-family: $roboto-font;
+    font-size: 1.5rem;
+    color: $main-text-color;
+  }
+
+  .team-members__list {
+    @extend %list;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 8rem;
   }
 
-  .team-member {
-    width: 380px;
+  .team-members__card {
     position: relative;
-
-    &:hover {
-      opacity: 0.9;
-      top: -10px;
-      left: -10px;
-    }
   }
 
-  .socials {
+
+  .team-members__card:hover .team-members__overlay {
+    opacity: 1;
+    transform: translate(-1rem, -1rem);
+  }
+
+
+  .team-members__overlay {
+    @include flex-center($type: 'all');
     position: absolute;
-    height: 100%;
     width: 100%;
-    font-size: 0px;
-    background-image: linear-gradient(0deg, #f0e290 0%, #e98a89 100%);
+    height: 100%;
     top: 0;
     left: 0;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(239, 138, 138, 0.9),
+      rgba(238, 215, 135, 0.9)
+    );
     opacity: 0;
-    z-index: 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 200ms linear;
-    box-shadow: 10px 10px #95e1d3;
-    transition: opacity 200ms linear, box-shadow 200ms linear;
-
-    &:hover {
-      opacity: 0.9;
-      top: -10px;
-      left: -10px;
-    }
+    box-shadow: 1rem 1rem $main-icons-color;
+    transition: all 200ms linear 0s;
   }
 
-  .team-member__image{
-    position: relative;
+  .team-members__image {
+    margin-bottom: 3rem;
   }
 
-  .team-member__image {
-    position: relative;
-    transition: all 200ms linear;
-    display: block;
-    z-index: 2;
+  .team__list-item:hover {
+    transform: translate(-1rem, -1rem);
   }
 
-  .team__member-name {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 1.4rem;
+  .team-members__name {
     font-family: $secondary-font-stack;
+    text-transform: uppercase;
     color: $title-text-color;
-    margin: 1.2rem 0;
+    font-size: $common-text-size;
+    text-align: center;
+    margin-bottom: 1.5rem;
   }
 
-  .team__member-occupation {
-    font-size: 1.5rem;
+  .team-members__pos {
     font-family: $roboto-font;
     color: $main-text-color;
-    text-align: center;
+    font-size: 1.5rem;
     font-style: italic;
+    text-align: center;
   }

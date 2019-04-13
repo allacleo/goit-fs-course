@@ -1,0 +1,31 @@
+.services__title {
+    margin-bottom: 6.6rem;
+  }
+
+  .title-section {
+    font-size: 3rem;
+    color: $title-text-color;
+    text-align: center;
+
+  &::after {
+    @include pseudo($display: block);
+    width: 6rem;
+    margin: 0 auto;
+    border-bottom: 0.3rem solid;
+    border-bottom-color: $icon-hover-color;
+    padding-bottom: 4.2rem;
+  }
+}
+
+  .subtitle-section {
+    font-size: 2.4rem;
+    color: $title-text-color;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: none;
+    display: block;
+  }
+
+  .team__title {
+    margin-bottom: 6rem;
+  }

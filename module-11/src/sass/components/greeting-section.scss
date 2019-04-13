@@ -1,0 +1,53 @@
+.greeting-section {
+    text-align: center;
+    padding: 0 18rem;
+  }
+
+  .subtitle {
+    font-family: $subtitle-font;
+  }
+
+  .greeting-section__subtitle {
+    font-size: 7.2rem;
+    color: $header-font-color-white;
+    text-transform: capitalize;
+    margin-bottom: 4rem;
+  }
+
+  .title {
+    font-family: $main-font-stack;
+    text-transform: uppercase;
+  }
+
+  .greeting-section__title {
+    font-size: 15rem;
+    color: $header-font-color-white;
+    line-height: 1;
+    margin-bottom: 12.6rem;
+  }
+
+  .button {
+    @extend %link;
+    box-sizing: border-box;
+    width: 16rem;
+    height: 4rem;
+    font-size: $common-text-size;
+    color: $header-font-color-white;
+    font-family: $main-font-stack;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 1.2rem 0;
+  }
+
+  .greeting-section__button {
+    @extend %link;
+    background: transparent;
+    margin: 0 auto;
+    border: 3px solid $header-font-color-white;
+    outline: none;
+
+  &:hover {
+    border-color: $header-hover-color;
+    color: $header-hover-color;
+  }
+}

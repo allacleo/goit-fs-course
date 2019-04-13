@@ -1,0 +1,24 @@
+.social-icons {
+    display: flex;
+   }
+
+   .social-icons__link {
+     @include flex-center('all');
+     background-color: $header-hover-color;
+     height: 5.5rem;
+     width: 5.5rem;
+     margin-right: 0.1rem;
+     fill: $icon-hover-color;
+
+   &:hover {
+     background-color: $icon-hover-color;
+     fill: $header-font-color-white;
+     transition: background-color 200ms linear;
+   }
+ }
+
+   .social-icons__link svg {
+     display: inline-block;
+     width: 2.6rem;
+     height: 2.6rem;
+   }

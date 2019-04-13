@@ -1,0 +1,61 @@
+.footer {
+    height: 6.2rem;
+    padding: 3.8rem 0;
+    border-top: 1px solid $border-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .copyright__text {
+    font-family: $secondary-font-stack;
+    color: $title-text-color;
+    font-size: $common-text-size;
+  }
+
+  .copyright__link {
+    color: $icon-hover-color;
+    text-decoration: none;
+  }
+
+  .footer__form-list {
+    display: flex;
+  }
+
+  .form__item {
+    box-sizing: border-box;
+    border: 1px solid ​$border-color;
+    width: 23rem;
+    height: 4rem;
+    font-family: $roboto-font;
+    font-style: italic;
+    font-size: 1.5rem;
+    padding-left: 1.2rem;
+    outline: none;
+  }
+
+  .form__item::placeholder {
+    color: #cccccc;
+  }
+
+  .form__input:not(:last-child):focus:valid {
+    border: 1px solid $border-color;
+  }
+
+  .form__input:not(:last-child):focus:invalid {
+    border: 1px solid red;
+  }
+
+  .form__button {
+    box-sizing: border-box;
+    background-color: $main-icons-color;
+    width: 15rem;
+    height: 4rem;
+    font-size: $common-text-size;
+    color: $header-font-color-white;
+    font-family: $main-font-stack;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+  }

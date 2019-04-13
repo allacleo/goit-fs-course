@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "montserrat-regular";
+    src: url("../src/fonts/montserrat-v12-latin/montserrat-v12-latin-regular.woff") format("woff"),
+    url("../src/fonts/montserrat-v12-latin/montserrat-v12-latin-regular.woff2") format("woff2");
+
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "montserrat-bold";
+    src: url("../src/fonts/montserrat-v12-latin/montserrat-v13-latin-600.woff") format("woff"),
+    url("../src/fonts/montserrat-v12-latin/montserrat-v13-latin-600.woff2") format("woff2");
+
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: "roboto-regular";
+    src: url("../src/fonts/roboto-slab-v7-latin/roboto-slab-v7-latin-regular.woff") format("woff"),
+    url("../src/fonts/roboto-slab-v7-latin/roboto-slab-v7-latin-regular.woff2") format("woff2");
+
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "kaushan-regular";
+    src: url("../src/fonts/kaushan-script-v7-latin/kaushan-script-v7-latin-regular.woff") format("woff"),
+    url("../src/fonts/kaushan-script-v7-latin/kaushan-script-v7-latin-regular.woff2") format("woff2");
+
+    font-weight: normal;
+    font-style: normal;
+  }
