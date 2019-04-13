@@ -1,6 +1,5 @@
 
 @import "./reset.css";
-@import "./bootstrap-grid.css";
 @import "./vars.css";
 @import "./fonts.css";
 
@@ -59,16 +58,14 @@ img {
   text-transform: uppercase;
 }
 
-
-.masthead {
+.masthead__header {
   display: flex;
   flex-direction: column-reverse;
 }
 
 
 .login_signup-list {
-  display: flex;
-  justify-content: center;
+  margin-bottom: 130px;
 }
 
 .hero_title {
@@ -96,6 +93,7 @@ img {
   border-radius: 20px;
   border: 2px solid #ff4e50;
   background-color: transparent;
+  width: 280px;
   cursor: pointer;
   font-family: var(--main-bold-font);
   padding: 11px 0;
@@ -115,7 +113,7 @@ img {
   font-family: var(--main-bold-font);
   color: var(--main-color);
   font-size: 14px;
-  padding: 16px 25px;
+  padding: 16px 22px;
   border: 2px solid transparent;
   outline: none;
 }

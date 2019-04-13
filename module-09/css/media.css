@@ -6,8 +6,20 @@
 
 
     .masthead__header {
+        flex-direction: row;
+        margin-bottom: 160px;
+      }
+
+      .login_signup-list {
+        margin-bottom: 0;
+        margin-right: -1.5rem;
+        margin-left: -1.5rem;
         display: flex;
         flex-direction: row;
+      }
+
+      .hero_title {
+        font-size: 52px;
       }
 
       .hero_descr {
@@ -17,6 +29,10 @@
       .partners-list {
         display: flex;
         flex-wrap: wrap;
+      }
+
+      .link-button {
+        width: 230px;
       }
 
       .partners-member {
