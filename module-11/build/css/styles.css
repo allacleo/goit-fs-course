@@ -37,35 +37,35 @@
   font-family: "montserrat-regular";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/montserrat-v13-latin/montserrat-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/montserrat-v13-latin/montserrat-v13-latin-regular.woff') format('woff'); /* Modern Browsers */
+  src: url('/fonts/montserrat-v13-latin/montserrat-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/montserrat-v13-latin/montserrat-v13-latin-regular.woff') format('woff'); /* Modern Browsers */
 }
 
 @font-face {
   font-family: "montserrat-bold";
   font-style: normal;
   font-weight: 600;
-  src: url('../fonts/montserrat-v13-latin/montserrat-v13-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/montserrat-v13-latin/montserrat-v13-latin-600.woff') format('woff'); /* Modern Browsers */
+  src: url('/fonts/montserrat-v13-latin/montserrat-v13-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/montserrat-v13-latin/montserrat-v13-latin-600.woff') format('woff'); /* Modern Browsers */
 }
 
 @font-face {
-  font-family: "roboto-regular";
-  src: url("../src/fonts/roboto-slab-v7-latin/roboto-slab-v7-latin-regular.woff") format("woff"),
-  url("../src/fonts/roboto-slab-v7-latin/roboto-slab-v7-latin-regular.woff2") format("woff2");
+    font-family: "roboto-regular";
+    src: url("/fonts/roboto-slab-v7-latin/roboto-slab-v7-latin-regular.woff") format("woff"),
+    url("/fonts/roboto-slab-v7-latin/roboto-slab-v7-latin-regular.woff2") format("woff2");
 
-  font-weight: normal;
-  font-style: normal;
-}
+    font-weight: normal;
+    font-style: normal;
+  }
 
-@font-face {
-  font-family: "kaushan-regular";
-  src: url("../src/fonts/kaushan-script-v7-latin/kaushan-script-v7-latin-regular.woff") format("woff"),
-  url("../src/fonts/kaushan-script-v7-latin/kaushan-script-v7-latin-regular.woff2") format("woff2");
+  @font-face {
+    font-family: "kaushan-regular";
+    src: url("/fonts/kaushan-script-v7-latin/kaushan-script-v7-latin-regular.woff") format("woff"),
+    url("/fonts/kaushan-script-v7-latin/kaushan-script-v7-latin-regular.woff2") format("woff2");
 
-  font-weight: normal;
-  font-style: normal;
-}
+    font-weight: normal;
+    font-style: normal;
+  }
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 

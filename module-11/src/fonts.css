@@ -18,8 +18,8 @@
 
   @font-face {
     font-family: "roboto-regular";
-    src: url("../src/fonts/roboto-slab-v7-latin/roboto-slab-v7-latin-regular.woff") format("woff"),
-    url("../src/fonts/roboto-slab-v7-latin/roboto-slab-v7-latin-regular.woff2") format("woff2");
+    src: url("../fonts/roboto-slab-v7-latin/roboto-slab-v7-latin-regular.woff") format("woff"),
+    url("../fonts/roboto-slab-v7-latin/roboto-slab-v7-latin-regular.woff2") format("woff2");
 
     font-weight: normal;
     font-style: normal;
@@ -27,8 +27,8 @@
 
   @font-face {
     font-family: "kaushan-regular";
-    src: url("../src/fonts/kaushan-script-v7-latin/kaushan-script-v7-latin-regular.woff") format("woff"),
-    url("../src/fonts/kaushan-script-v7-latin/kaushan-script-v7-latin-regular.woff2") format("woff2");
+    src: url("../fonts/kaushan-script-v7-latin/kaushan-script-v7-latin-regular.woff") format("woff"),
+    url("../fonts/kaushan-script-v7-latin/kaushan-script-v7-latin-regular.woff2") format("woff2");
 
     font-weight: normal;
     font-style: normal;
